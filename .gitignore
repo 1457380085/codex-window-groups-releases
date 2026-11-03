@@ -1,0 +1,16 @@
+# Release uploads are kept locally for manual GitHub Release attachment, not committed here.
+/release-assets/
+
+# Keep application data and development artifacts out of the public repository.
+**/groups.json
+**/*preferences*.json
+**/settings*.json
+**/foreground-diagnostic.txt
+**/*.log
+**/*.pdb
+**/*.exe
+**/*.dll
+**/*.cs
+**/*.cmd
+**/*.iss
+**/*.manifest
